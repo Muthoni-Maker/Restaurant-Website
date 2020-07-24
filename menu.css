@@ -89,3 +89,72 @@
         transform:translateX(-100%);
     }
 }
+/*Menu styling*/
+#Menu{
+    background-color:#070707;
+}
+.menu-title{
+    color:#D0D0D4;
+    text-align:center;
+    padding:25px;
+    font-size:2em;
+}
+.tab-container{
+    width:90%;
+    height:80%;
+    margin:10px;
+}
+
+.tabs-header{
+    border:none;
+    outline:none;
+    background:transparent;
+    color:#eee;
+    padding:6px 12px;
+    font-size:1em;
+    cursor:pointer;
+
+}
+.active-tab{
+     border:1px soilid white;
+     border-bottom:none;
+}
+.tabSection{
+    border:1px solid #eee;
+    padding:15px;
+}
+.hide-tab{
+    display:none;
+
+}
+.show-tab{
+    display:block;
+}
+p{
+    color:#eee;
+    font-size:1.1em;
+}
+.menu-price{
+    float:right;
+}
+/*Restaurant contact information*/
+#restaurant-info{
+    background-color:#070707;
+    padding:20px;
+}
+.restaurant-info-title{
+    color:#D3CAc8;
+    text-align:center;
+}
+.address-content,.business-content,.contact-content{
+       padding:20px;
+}
+.address,.hours{
+      font-size:1em;
+      text-align:center;
+}
+.phone{
+    bottom-margin:0px;
+    font-size:1em;
+    text-align:center;
+}
