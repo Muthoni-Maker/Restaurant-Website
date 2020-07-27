@@ -44,7 +44,7 @@
     left:0;
     height:100%;
     width:50%;
-    transform:translateX(-100%)
+    transform:translateX(-100%);
 }
 .close-nav-slider{
     border:none;
@@ -54,6 +54,7 @@
     color:yellow;
     font-size:1.5em;
     padding:15px;
+    cursor:pointer;
 }
 .nav-links-container{
     display:flex;
@@ -81,7 +82,7 @@
             transform:translate(0%);
         }
 }
-@keyframes .closeNav{
+@keyframes closeNav{
     0% {
         transform:translate(0%);
     }
@@ -108,7 +109,7 @@
 .tabs-header{
     border:none;
     outline:none;
-    background:transparent;
+    background-color:transparent;
     color:#eee;
     padding:6px 12px;
     font-size:1em;
